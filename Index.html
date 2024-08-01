@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonia's Blossom</title>
+    <link rel="stylesheet" href="csscode.css"
+    > <!-- link to external stylesheet -->
+
+ 
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="nav-links">
+            <li class="nav-item"><a href="#home">Home</a></li>
+            <li class="nav-item"><a href="#events">Events</a></li>
+            <li class="nav-item"><a href="#customer-management">Customer Management</a></li>
+            <li class="nav-item"><a href="#booking">Booking</a></li>
+            <li class="nav-item"><a href="home.php">Customer's Entry</a></li>
+        </ul>
+    </nav>
+    
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1 style="color:rgb(183, 0, 255);text-align:center;">Sonia's Blossom</h1>
+        <h1>Welcome to Sonia's Blossom</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <p>Explore our beautiful flowers and arrangements for your special day</p>
+    <h1>Learn More About Our Beautiful Flowers</h1>
+    <div class="main">
+      <!-- Learn More Section -->
+
+      <div class="flower-card" style="width: 4in; height: 6in;">
+        <img src="sidney-pearce-yPMJliKzyc4-unsplash.jpg" alt="Flower 1" class="flower-image" style="width: 60%; height: 60%;">
+        <h2 class="flower-name">Rose</h2>
+        <p class="flower-description">A classic choice, our roses are available in a variety of colors and arrangements.</p>
+        <p class="flower-price">$50.00</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+  
+      <!-- Flower Card 2 -->
+      <div class="flower-card" style="width: 4in; height: 6in;">
+        <img src="./istockphoto-1576407158-1024x1024.jpg" alt="Flower 2" class="flower-image" style="width: 60%; height: 60%;">
+        <h2 class="flower-name">Sunflower</h2>
+        <p class="flower-description">Brighten up any room with our vibrant sunflowers, available in bouquets and arrangements.</p>
+        <p class="flower-price">$30.00</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+  
+      <!-- Flower Card 3 -->
+      <div class="flower-card" style="width: 4in; height: 6in;">
+        <img src="./loredana-filip-jZDDIJgQdGA-unsplash.jpg" alt="Flower 3" class="flower-image" style="width: 60%; height: 60%;">
+        <h2 class="flower-name">Lily</h2>
+        <p class="flower-description">Our elegant lilies are perfect for any occasion, available in white, pink, and yellow.</p>
+        <p class="flower-price">$40.00</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <!-- Flower Card 4    -->
+      <div class="flower-card" style="width: 4in; height: 6in;">
+        <img src="./loredana-filip-B2bZTwJBkFk-unsplash (1).jpg" alt="Flower 4" class="flower-image" style="width: 60%; height: 60%;">
+       <h2 class="flower-name">Tulip</h2>
+        <p class="flower-description">Beyond purity, white tulips also hold a deeper meaning when it comes to love and devotion.</p>
+        <p class="flower-price">$45.00</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+           <!-- Flower Card 5    -->
+           <div class="flower-card" style="width: 4in; height: 6in;">
+            <img src="./istockphoto-1215587733-1024x1024.jpg" alt="Flower 5" class="flower-image" style="width: 60%; height: 60%;">
+            <h2 class="flower-name">Ageratum</h2>
+            <p class="flower-description">Ageratum features fluffy, powder-blue flowers that resemble soft, pincushion-like mounds.</p>
+            <p class="flower-price">$25.00</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+             <!-- Flower Card  6  -->
+             <div class="flower-card" style="width: 4in; height: 6in;">
+                <img src="./istockphoto-135290814-1024x1024.jpg" alt="Flower6" class="flower-image" style="width: 60%; height: 60%;">
+                <h2 class="flower-name">Daisy</h2>
+                <p class="flower-description"> Daisies are fascinating flowers with a rich history and symbolism </p>
+                <p class="flower-price">$50.00</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+              </div>
+    </div>
+  </section>
+
+    <!-- Events Section -->
+    <section id="events">
+        <h1>Upcoming Events</h1>
+        <ul>
+            <li>Wedding Expo - June 6th</li>
+            <li>Flower Arrangement Workshop - June 15th</li>
+            <li>Summer Sale - July 1st</li>
+        </ul>
+    </section>
+
+    <!-- Customer Management Section -->
+    <section id="customer-management">
+        <h1>Customer Management</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking">
+        <h1>Book an Appointment</h1>
+        <form>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date"><br><br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time"><br><br>
+            <label for="service">Service:</label>
+            <select id="service" name="service">
+                <option value="wedding">Wedding</option>
+                <option value="event">Event</option>
+                <option value="consultation">Consultation</option>
+            </select><br><br>
+            <input type="submit" value="Book">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Flower Shop</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- link to external script -->
+</body>
+</html>
